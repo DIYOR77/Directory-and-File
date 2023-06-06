@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string files1 = "C:\\Project\\lesson.txt";
+            string files2 = "C:\\Project\\New folder\\new";
+            File.Copy(files1, files2, true);
         }
     }
 }
